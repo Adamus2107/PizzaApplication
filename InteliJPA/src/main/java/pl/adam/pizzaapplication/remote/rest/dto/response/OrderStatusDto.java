@@ -71,4 +71,9 @@ public class OrderStatusDto
     {
         this.expectedAt = expectedAt;
     }
+
+    public void fixSetup()
+    {
+	System.out.println("Code fixed")
+    }
 }
